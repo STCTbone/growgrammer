@@ -48,3 +48,8 @@ group :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
 end
+gem 'ember-rails'
+gem 'ember-source', '~> 1.9.0'
+gem 'grape'
+gem 'hashie_rails'
+gem 'ember_script-rails', :github => 'ghempton/ember-script-rails'
